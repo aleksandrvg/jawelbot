@@ -17,7 +17,7 @@ def InsertWork(client, master, price, defect_description, work_type, jawel):
     return work
 
 
-def EndWork(work:Work, time):
+def EndWork(work: Work, time):
     date = datetime.datetime.now().strftime("%Y-%m-%d")
     work.date_end = date
     work.work_time = time
