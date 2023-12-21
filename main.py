@@ -36,7 +36,7 @@ async def RegUser(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                    second_name=second_name,
                                    email=email,
                                    third_name=third_name)
-    await update.effective_message.reply_text(text="Пользователь добавлен")
+    await update.effective_message.reply_text(text="Пользователь успешно добавлен")
 
 
 async def registrationUser(update: Update, context: ContextTypes.DEFAULT_TYPE):
